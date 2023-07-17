@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', 'Anton', 'Roboto', sans-serif;
+}
+
+.wrapper .menu {
+    margin: 20px;
+    height: 27rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper .menu .blocoMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .menu .blocoMenu .listaMenu {
+    font-weight: lighter;
+    padding: 1rem;
+}

@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    font-family: 'Outfit', 'Anton', 'Roboto', sans-serif;
+}
+body {
+    background-color: rgb(43, 205, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.footer .divsFooter {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+.footer .copy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    color: #fff;
+}
+
+.footer .copy h4 {
+    margin: 2px;
+}
+
+.footer .copy small {
+    margin: 0;
+}

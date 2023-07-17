@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', 'Anton', 'Roboto', sans-serif;
+}
+
+.main .header .blocoHeader {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-image: url('/img/headerimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    font-family: 'Outfit', 'Anton', 'Roboto', sans-serif;
+}
+
+.content section div .blocoIcones {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.main .content #imagemPrincipal {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    font-size: 70px;
+    color: #fff;
+    align-items: center;
+    background-image: url('/img/fundoContent.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .7;
+}
+
+.main .content #imagemPrincipal #textoImagemPrincipal {
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
