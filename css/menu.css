@@ -5,11 +5,13 @@ html, body {
 }
 
 .wrapper .menu {
-    margin: 20px;
-    height: 27rem;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    height: 100%;
+    align-items: start;
     text-align: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .wrapper .menu .blocoMenu {
@@ -19,6 +21,14 @@ html, body {
 }
 
 .wrapper .menu .blocoMenu .listaMenu {
-    font-weight: lighter;
+    margin: 0;
     padding: 1rem;
+}
+
+.wrapper .menu .blocoMenu .listaMenu a img {
+    width: 50px;
+    -webkit-box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px 0px 10px;
 }

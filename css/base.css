@@ -6,6 +6,7 @@ body {
     background-color: rgb(43, 205, 255);
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -16,40 +17,27 @@ body {
     background: linear-gradient(270deg, rgba(43,205,255,1) 0%, rgba(226,248,255,1) 69%);
 }
 
-.wrapper .menu ul li a {
-    color: #fff;
-    font-size: 11px;
-    font-weight: bold;
-    padding: .25rem;
-}
-
-
-.wrapper .menu ul li a:hover {
-    background-color: #fff;
-    font-size: 10px;
+.wrapper .menu .blocoMenu div ul li a img:hover {
+    background-color: #ffffff3d;
     color: #000;
-    border: .5px solid lightslategray;
-    border-radius: 10px;
-    transition: border .25s;
+    border: .5px solid rgb(60, 133, 206);
+    border-radius: 10px 0px 10px;
 }
 
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 
 .menu {
     display: flex;
     flex-wrap: wrap;
     width: 15%;
-    height: max-content;
-    background-color: rgb(94, 223, 255);
-    margin: 10px 10px 10px 5px;
-    border: 1px solid #000;
-    box-shadow: 0px 0px 0px 3px #000;
-    border-radius: 30px;
-    padding: 10px 20px 0px;
+    height: 100%;
+    background-color: rgba(67, 172, 199, 0.534);
+    margin: 0;
+    padding: 0;
 }
 
 .header {
